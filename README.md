@@ -9,8 +9,7 @@ real-time data is graphed, thereby giving a Trend Analysis of the given query ov
 scikit-learn ([custom_sentimentanalyzer.py](https://github.com/gauthkris/Real-Time-Sentiment-Analyzer-of-Twitter-Trends/blob/master/custom_sentimentanalyzer.py)) is created and pickled, returning the category ("pos" or "neg") \
 and the confidence factor (sentiment polarity).
 
-2. Another [TextBlob](https://textblob.readthedocs.io/en/dev/) Sentiment Analysis classifier is used for returning the category and \
-sentiment polarity.
+2. Another [TextBlob](https://textblob.readthedocs.io/en/dev/) Sentiment Analysis classifier is used for returning the category and sentiment polarity.
 
 ✔ When the user enters a query, the Twitter data relevant to the query is streamed using [Tweepy](http://www.tweepy.org/), which is then \
 parsed and cleaned to remove links and special characters. The data is then passed into both the classifiers to \
@@ -28,4 +27,4 @@ running [custom_train.py](https://github.com/gauthkris/Real-Time-Sentiment-Analy
 ✔ To test the sentiment of any text of your choice, [test_sentiment.py](https://github.com/gauthkris/Real-Time-Sentiment-Analyzer-of-Twitter-Trends/blob/master/test_sentiment.py) can be used.
 
 ✔ An example of ensemble classifier for custom sentiment analysis is done for Movie Reviews and can be \
-found here ([ensemble_classifer.py](https://github.com/gauthkris/Real-Time-Sentiment-Analyzer-of-Twitter-Trends/blob/master/ensemble_classifier.py))
+found here ([ensemble_classifer.py](https://github.com/gauthkris/Real-Time-Sentiment-Analyzer-of-Twitter-Trends/blob/master/ensemble_classifier.py)).
