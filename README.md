@@ -18,8 +18,8 @@ then written into separate files.
 
 ✔ The [twitter-feed-custom.txt](https://github.com/gauthkris/Real-Time-Sentiment-Analyzer-of-Twitter-Trends/blob/master/twitter-feed-custom.txt) and 
 [twitter-feed-textblob.txt](https://github.com/gauthkris/Real-Time-Sentiment-Analyzer-of-Twitter-Trends/blob/master/twitter-feed-textblob.txt) are then used for graphing the live data on every hit \
-of the query while streaming. The overall percentage of "pos" and "neg" is also updated for a realistic trend \
-for the query ([custom_livetwittergraph.py](https://github.com/gauthkris/Real-Time-Sentiment-Analyzer-of-Twitter-Trends/blob/master/custom_livetwittergraph.py)) and ([textblob_livetwittergraph.py](https://github.com/gauthkris/Real-Time-Sentiment-Analyzer-of-Twitter-Trends/blob/master/textblob_livetwittergraph.py)).
+of the query while streaming, using matplotlib. The overall percentage of "pos" and "neg" is also updated for a \
+realistic trend of the query ([custom_livetwittergraph.py](https://github.com/gauthkris/Real-Time-Sentiment-Analyzer-of-Twitter-Trends/blob/master/custom_livetwittergraph.py)) and ([textblob_livetwittergraph.py](https://github.com/gauthkris/Real-Time-Sentiment-Analyzer-of-Twitter-Trends/blob/master/textblob_livetwittergraph.py)).
 
 ✔ The existing pickles can be used for training, or you can train your own customized ensemble classifier by \
 running [custom_train.py](https://github.com/gauthkris/Real-Time-Sentiment-Analyzer-of-Twitter-Trends/blob/master/custom_train.py).
