@@ -20,8 +20,7 @@ from nltk import pos_tag
 short_pos = open("short_reviews/positive.txt", "r").read()
 short_neg = open("short_reviews/negative.txt", "r").read()
 
-documents = []
-all_words = []
+documents, all_words = [], []
 
 allowed_word_types = ["J"]
 
