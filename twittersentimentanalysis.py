@@ -15,7 +15,7 @@ import json
 from textblob import TextBlob
 import custom_sentimentanalyzer as sent
 from keys_access_tokens import consumer_key, consumer_secret, access_token, access_secret
-# Save your own keys and access tokens in "keys_access_tokens.py" acquired from Twitter Apps
+# Save your own keys and access tokens in "keys_access_tokens.py" acquired from Twitter Apps (https://apps.twitter.com/)
 
 out1 = "twitter-feed.txt"
 os.remove(out1) if os.path.exists(out1) else None
