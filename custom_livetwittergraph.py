@@ -26,14 +26,12 @@ def animate(i):
     lines = data.split('\n')
 
     trend = []
-
     t = 0
     for line in lines[1:]:
         if "pos" in line:
             t += 1
         elif "neg" in line:
             t -= 1
-
         trend.append(t)
         
     ax.clear()
