@@ -1,0 +1,26 @@
+Founding O
+member O
+Kojima I-PER
+Minoru I-PER
+played O
+guitar O
+on O
+Good I-MISC
+Day I-MISC
+, O
+and O
+Wardanceis I-MISC
+cover O
+of O
+a O
+song O
+by O
+UK I-LOC
+post O
+punk O
+industrial O
+band O
+Killing I-ORG
+Joke I-ORG
+. O
+
