@@ -1,7 +1,6 @@
 # Real-Time-Sentiment-Analyzer-of-Twitter-Trends
 
-✔ The live Twitter data correlating to a given query from the user is classified into positive or negative. This  
-real-time data is graphed, thereby giving a Trend Analysis of the given query overtime.
+✔ The live Twitter data correlating to a given query from the user is classified into positive or negative. This real-time   data is graphed, thereby giving a Trend Analysis of the given query overtime.
 
 ✔ The following two classifiers were created:
 
