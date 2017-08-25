@@ -6,7 +6,7 @@ data is graphed, thereby giving a Trend Analysis of the given query overtime.
 ✔ The following two classifiers were created:
 
 1. An ensemble of Sentiment Analysis classifiers ([custom_sentimentanalyzer.py](https://github.com/gauthkris/Real-Time-Sentiment-Analyzer-of-Twitter-Trends/blob/master/custom_sentimentanalyzer.py)), resulting in a voted  
-majority classifier trained using nltk and scikit-learn is created and pickled, returning the category (>pos or neg)  
+majority classifier trained using nltk and scikit-learn is created and pickled, returning the category (pos or neg)  
 and the confidence factor (sentiment polarity).
 
 2. Another [TextBlob](https://textblob.readthedocs.io/en/dev/) Sentiment Analysis classifier is used for returning the category and sentiment polarity.
